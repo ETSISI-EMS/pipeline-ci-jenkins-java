@@ -1,0 +1,14 @@
+# Shell scripts: siempre LF
+*.sh text eol=lf
+
+# Workflows también LF (evita problemas raros)
+.github/workflows/*.yml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Terraform: LF
+*.tf text eol=lf
+*.tfvars text eol=lf
+
+# Docs
+*.md text eol=lf
